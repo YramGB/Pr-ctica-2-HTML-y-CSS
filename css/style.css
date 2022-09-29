@@ -1,0 +1,98 @@
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)),url(../images/uv.jpg);
+    height: 500px;       
+    background-size: cover;    
+    text-align: center; 
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    margin: 0px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 36px;
+    color: rgb(250, 255, 255);  
+    font-family: Roboto Slab, serif;   
+    width: 780px; 
+}
+
+.texto-principal{
+    width: 66.67%;
+    padding-left: 310px;    
+}
+
+.numero{
+    font-family: roboto Slabs;
+    color: rgba(0, 0, 0, 0.25);
+    font-size: 36px;    
+    font-style: bold;    
+}
+
+.titulo-bebida{  
+    font-family: roboto Slabs;  
+    color: rgb(51, 51, 51);
+    font-size: 36px;    
+    font-style: bold;
+    margin: 0px;    
+    padding-left: 40px;
+}
+
+#header h1 { 
+    display:inline; 
+}
+
+p{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 18px;    
+    color: rgb(51, 51, 51);
+    padding-left: 70px;
+    margin-top: 20px;    
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.recomendacion{
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 18px;    
+    color: rgb(51, 51, 51);
+    padding-left: 70px;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.image{
+    width: 80%;
+    padding-left: 190px;    
+    margin-bottom: 120px;
+}
+
+#perfil{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;    
+}
+
+#foto{
+    background-image: url(../images/perfil.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    border: 1px solid white;       
+}
+
+#datos{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+    color: rgb(51,51,51);
+    line-height: 24px;
+    text-align: center;
+    margin-bottom: 60px;
+}
